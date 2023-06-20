@@ -1,0 +1,5 @@
+1>unit text=>
+unit test are done locally
+forked hardhat network
+
+2>staggiong test can be done on a testnet (LAST STOP)
