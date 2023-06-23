@@ -77,7 +77,10 @@ contract FundMe {
         require(success);
     }
 
+
+// cheaper withdraw
     function cheaperWithdraw() public onlyOwner {
+        //memory is cheap
         address[] memory funders = s_funders;
         // mappings can't be in memory, sorry!
         for (
